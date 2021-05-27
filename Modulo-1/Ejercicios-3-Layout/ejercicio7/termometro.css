@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+}
+
+.azul {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+.blanco {
+    color: #FFFFFF;
+}
+
+.rojo {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.a {
+    color: #006eff;
+}
+
+.b {
+    color: #00b7ff;
+}
+
+.c {
+    color: #6accf3;
+}
+
+.d {
+    color: #c0e5f3;
+}
+
+.e {
+    color: #f8f7aa;
+}
+
+.f {
+    color: #fdf142;
+}
+
+.g {
+    color: #ff9900;
+}
+
+.h {
+    color: #ff5100;
+}

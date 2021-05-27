@@ -1,0 +1,23 @@
+body,
+p {
+    font-family: Raleway;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 30px;
+}
+
+.fecha {
+    font-size: 10px;
+    color: #C8C8C8;
+}
+
+.ingreso {
+    color: #008F39;
+}
+
+.salida {
+    color: #FF0000;
+}

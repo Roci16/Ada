@@ -1,0 +1,15 @@
+h1 {
+    font-size: 120px;
+    font-weight: 800;
+    font-family: Montserrat;
+    color: rgb(190, 57, 105);
+}
+
+p {
+    font-family: Poppins;
+    font-size: 48px;
+}
+
+span {
+    color: #BE3969;
+}

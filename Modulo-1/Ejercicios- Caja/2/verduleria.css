@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(153, 212, 151);
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+div {
+    width: 250px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 150px 500px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
+    text-align: center;
+    font-family: Roboto;
+}
+
+span {
+    color: grey;
+}
+
+p {
+    width: 160px;
+    background-color: #ffffff;
+    border: 1px solid #ebebf2;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 0 auto 10px;
+}

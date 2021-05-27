@@ -1,0 +1,26 @@
+ html,
+ body {
+     margin: 0;
+     height: 100%;
+     background-color: rgb(105, 68, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .box {
+     width: 410px;
+     height: 600px;
+     background-color: white;
+     border-radius: 10px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     box-shadow: 2px 2px 50px rgb(76, 76, 255);
+ }
+ 
+ img {
+     width: 130px;
+     border-radius: 50%;
+     padding: 40px;
+ }

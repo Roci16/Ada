@@ -1,0 +1,111 @@
+html,
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.ubicacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 800px;
+}
+
+.cajita {
+    height: 20px;
+    width: 70px;
+    margin: 8px 12px;
+    padding: 1px;
+}
+
+.cajita-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cajita-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajita-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cajita-a,
+.cajita-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columna-a,
+.columna-b {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 20px;
+    margin: 12px 12px;
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dado-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.dado-2,
+.dado-3,
+.dado-4,
+.dado-5 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.dado-6 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.puntito {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: black;
+}

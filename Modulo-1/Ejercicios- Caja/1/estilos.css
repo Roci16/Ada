@@ -1,0 +1,30 @@
+img {
+    width: 55px;
+}
+
+div {
+    width: 300px;
+    padding: 30px;
+    background-color: #f7f7fc;
+    text-align: left;
+    border-radius: 10px;
+    margin: 150px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+    color: black;
+    font-weight: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 90px;
+    height: 35px;
+    background-color: rgb(101, 155, 235);
+    border: 0px;
+    color: white;
+    box-shadow: rgb(158, 188, 233);
+    border-radius: 5px;
+}

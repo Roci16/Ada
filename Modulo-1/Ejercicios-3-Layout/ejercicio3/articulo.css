@@ -1,0 +1,26 @@
+h1 {
+    font-size: 100px;
+    font-family: Monserrat;
+}
+
+article {
+    color: #3C3C3C;
+    font-family: Raleway;
+}
+
+a {
+    color: #81d4d4;
+    text-decoration: none;
+}
+
+p {
+    font-family: Raleway;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+span.bold {
+    font-weight: bold;
+}
