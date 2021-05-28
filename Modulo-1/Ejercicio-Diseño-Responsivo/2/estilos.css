@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+header {
+    background-color: pink;
+    padding: 2px;
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-decoration: none;
+    color: grey;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+img {
+    width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+    ul {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    img {
+        display: none;
+    }
+}
