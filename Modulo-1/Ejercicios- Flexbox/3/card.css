@@ -2,6 +2,9 @@
  body {
      margin: 0;
      height: 100%;
+ }
+ 
+ body {
      background-color: rgb(105, 68, 255);
      display: flex;
      align-items: center;
@@ -16,25 +19,80 @@
      display: flex;
      align-items: flex-start;
      justify-content: center;
+     flex-direction: column;
      box-shadow: 2px 2px 50px rgb(76, 76, 255);
  }
  
  .imagen {
-     height: 200px;
-     width: 410px;
+     height: 260px;
+     width: 370px;
      display: flex;
      justify-content: center;
      align-items: center;
+     flex-direction: column;
+     padding: 20px;
+     margin-top: 10px;
  }
  
  img {
      width: 130px;
      border-radius: 50%;
-     padding: 40px;
  }
  
- .box-header {
+ .numeros {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 260px;
+     width: 410px;
+ }
+ 
+ .botones {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 260px;
+     width: 410px;
+ }
+ 
+ .follow {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 260px;
+     width: 410px;
+ }
+ 
+ .cajita {
      display: flex;
      flex-direction: column;
+     text-align: center;
+     margin: 15px;
+ }
+ 
+ .numero {
+     font-weight: bold;
+     font-size: 20px;
+ }
+ 
+ .botones div {
+     display: flex;
+     align-items: center;
+     background-color: aqua;
+     text-align: center;
+     width: 50px;
+     height: 50px;
+     margin: 10px;
+     padding-left: 10px;
+     border-radius: 50%;
+ }
+ 
+ .follow-1 {
+     display: flex;
      justify-content: center;
+     align-items: center;
+     width: 150px;
+     height: 35px;
+     background-color: red;
+     border-radius: 40px;
  }
