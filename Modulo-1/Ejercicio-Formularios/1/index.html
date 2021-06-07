@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST">
+        <label for="nombre">
+            Nombre 
+            <input type="text" name="nombres" placeholder="Nombre" id="nombre">
+          </label>
+        <label for="apellido">
+         Apellido
+        <input type="text" name="apellidos" id="apellido" placeholder="Apellido">
+        </label>
+        <label for="dni"> 
+               DNI
+            <input type="num" name="DNI" id="dni" placeholder="DNI Argentino" minlength="0" maxlength="8">
+        </label>
+        <label for="mail">
+            Email
+            <input type="mail" name="email" id="mail" placeholder="Ej: Lovelace@ADA.com">
+        </label>
+        <label for="contraseña">
+            Contraseña
+            <input type="password" name="contraseñas" id="contraseña" placeholder="Contraseña" minlength="8" maxlength="16">
+            </label>
+        <label for="condiciones">
+            Términos y condiciones de uso
+            <input type="checkbox" name="terminosYcondiciones" id="condiciones">
+        </label>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>

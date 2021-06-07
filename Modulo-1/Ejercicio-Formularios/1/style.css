@@ -1,0 +1,22 @@
+html,
+body {
+    margin: 0;
+    height: 0;
+    padding: 0;
+    background-color: rgb(206, 160, 248);
+}
+
+form {
+    background-color: rgb(251, 223, 255);
+    padding: 10px;
+    display: block;
+    width: 280px;
+    height: 320px;
+    margin: 10px;
+    border: 1px solid rgb(196, 167, 167);
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
